@@ -1,2 +1,2 @@
 name = '"'
-print("%sProgramming is like building a multilingual puzzle"%name)
+print("%sProgramming is like building a multilingual puzzle\n"%name)
