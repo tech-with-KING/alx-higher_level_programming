@@ -1,3 +1,4 @@
-#!/usr/bin/python3
+#!/bin/bas
 for i in range(97, 123):
-    print('{}'.format(chr(i)), end='')
+    alphabet = chr(i)
+    print('{}'.format(alphabet), end='')
