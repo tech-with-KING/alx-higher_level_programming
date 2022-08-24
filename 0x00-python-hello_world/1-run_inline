@@ -1,3 +1,5 @@
 #!/bin/bash
-python3 $PYCODE
+chmod u+x $PYCODE
+./$PYCODE
+
 
