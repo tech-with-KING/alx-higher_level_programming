@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 number = 98
-print(f'{number} Battery street')
+print(f' % s Battery street' % number)
 # YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
