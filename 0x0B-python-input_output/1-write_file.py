@@ -2,6 +2,7 @@
 def write_file(filename="", text=""):
     with open(filename, encoding='utf-8') as f:
         f.write(text)
-        print(f, end=' ')
+        print(a, end=' ')
 
-write_file('text.txt','this is the ultimate attempt to change the world')
+
+write_file('text.txt', 'this is the ultimate attempt to change the world')
