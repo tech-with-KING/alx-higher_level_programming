@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
-def read_file(filename=""):
-    with open(filename, encoding="utf-8") as fd:
-        for line in fd:
-            print(line, end="")
-
+def write_file(filename="", text=""):
+    with open(filename, mode="w", encoding="utf-8") as fd:
+        fd.write(text)
+    return len(text)
