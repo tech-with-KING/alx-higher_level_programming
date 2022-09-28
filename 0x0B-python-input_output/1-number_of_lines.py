@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-def read_file(filename=""):
+def number_of_lines(filename=""):
+    count = 0
     with open(filename, encoding="utf-8") as fd:
         for line in fd:
-            print(line, end="")
+            count += 1
+    return count
