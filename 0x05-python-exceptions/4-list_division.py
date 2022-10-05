@@ -1,23 +1,30 @@
 #!/usr/bin/python3
+# 4-list_division.py
+
+
 def list_division(my_list_1, my_list_2, list_length):
-    store = []
-    switch = 0
-    for i in range(list_length):
+    """
+    Divides two lists element by element.
+    Args:
+        my_list_1 (list): The first list.
+        my_list_2 (list): The second list.
+        list_length (int): The number of elements to divide.
+    Returns:
+        A new list of length list_length containing all the divisions.
+    """
+    new_list = []
+    for elem in range(0, list_length):
         try:
-            x = my_list_1[i] / my_list_2[i]
-        except ZeroDivisionError:
-            print("division by 0")
-            switch = 1
+            quotient = my_list_1[elem] / my_list_2[elem]
         except TypeError:
             print("wrong type")
-            switch = 1
+            quotient = 0
+        except ZeroDivisionError:
+            print("division by 0")
+            quotient = 0
         except IndexError:
             print("out of range")
-            switch = 1
+            quotient = 0
         finally:
-            if switch:
-                switch = 0
-                store.append(0)
-            else:
-                store.append(x)
-    return store
+            new_list.append(quotient)
+    return (new_list)

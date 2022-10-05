@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-name = '"'
-print("%sProgramming is like building a multilingual puzzle"% name)
+print('\"Programming is like building a multilingual puzzle')

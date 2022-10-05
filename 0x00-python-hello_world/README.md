@@ -1,1 +1,1 @@
-i am not sure if c has taught me anything but i will find out here
+0x00-python-hello_world README
